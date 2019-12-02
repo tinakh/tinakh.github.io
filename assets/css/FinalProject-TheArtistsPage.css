@@ -1,0 +1,160 @@
+html {
+    background-color: #005F69;
+    font-family: 'PT Sans', sans-serif;
+}
+#title-banner {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1000px;
+    margin-left: 14%; 
+}
+#peacock-left img {
+    width: 150px;
+}
+#peacock-right img {
+    width: 150px;
+}
+#title {
+    font-family: 'Petrona', serif;
+    font-size: 45px;
+    line-height: 51px;
+    text-align: center;
+    color: #84DCC6;
+}
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 700px;
+    margin-left: 26%;
+
+}
+.navbar-items {
+    font-family: 'Petrona', serif;
+    color: #A2BCE0;
+    font-size: 25px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    padding: 10px;
+    
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #A2BCE0;
+}
+.navbar-items:hover {
+    border: 2px solid  #A2BCE0;
+    cursor: pointer;
+}
+.navbar-items:active {
+    border: 4px solid  #A2BCE0;
+    cursor: pointer;
+}
+.navbar-items:visited {
+    border: 2px solid  #A2BCE0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 660px;
+    height: 700px;
+    margin-left: 26%;
+    
+}
+
+.grid-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    backface-visibility: hidden;
+}
+.flip-card-back {
+    width: 310px;
+    height: 310px;
+    background-color: #006E7A;
+    color: #D6EDFF;
+    font-family: 'Petrona', serif;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #A2BCE0;
+    box-sizing: border-box;
+    transform: rotateY(180deg);
+}
+
+/*flip card 1*/
+#flip-card1-container {
+    perspective: 1000px;
+}
+#flip-card1 {
+    position: relative;
+    width: 310px;
+    height: 310px;
+    transform-style: preserve-3d;
+    transition: transform 1s;  
+}
+#flip-card1:hover {
+    transform: rotateY(180deg);
+}
+
+/*flip card 2*/
+#flip-card2-container {
+    perspective: 1000px;
+}
+#flip-card2 {
+    position: relative;
+    width: 310px;
+    height: 310px;
+    transform-style: preserve-3d;
+    transition: transform 1s;  
+}
+#flip-card2:hover {
+    transform: rotateY(180deg);
+}
+
+/*flip card 3*/
+#flip-card3 {
+    position: relative;
+    width: 310px;
+    height: 310px;
+    transform-style: preserve-3d;
+    transition: transform 1s;  
+}
+#flip-card3:hover {
+    transform: rotateY(180deg);
+}
+
+/*flip card 4*/
+#flip-card4 {
+    position: relative;
+    width: 310px;
+    height: 310px;
+    transform-style: preserve-3d;
+    transition: transform 1s;  
+}
+#flip-card4:hover {
+    transform: rotateY(180deg);
+}
+
+
+
+
+
